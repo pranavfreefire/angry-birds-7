@@ -96,9 +96,9 @@ async function time(){
    var time=date.slice(11,13)
   console.log(time)
   if(time>=05&&time<16){
-  backgroundImg="sprites/bg.png"
+  backgroundImg=loadImage("sprites/bg.png")
   }
   else{
-      backgroundImg="sprites/bg2.jpg"
+      backgroundImg=loadImage("sprites/bg2.jpg")
   }
 }
